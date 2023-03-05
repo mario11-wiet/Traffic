@@ -1,4 +1,4 @@
-from default_map import default_map
+from Traffic.Settings.default_map import default_map
 
 
 class Road:
