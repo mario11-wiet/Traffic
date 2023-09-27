@@ -1,5 +1,6 @@
 default_map = {
     "max_speed": 50,
+    "pixels_per_unit": 16,
     "map_size": {
         "width": 50,
         "height": 50,
@@ -28,6 +29,12 @@ default_map = {
             "left_lane": 1,
             "start": (5, 0),
             "end": (5, 50),
+        },
+        "5": {
+            "right_lane": 2,
+            "left_lane": 2,
+            "start": (15, 0),
+            "end": (15, 50),
         },
     },
     "crossroad": {
